@@ -1,20 +1,8 @@
 .section-navbar {
     background-color: #ffffff;
     padding: 30px 0;
-    position: relative;
-    overflow: hidden;
+    position: center;
     font-family: 'Catamaran', sans-serif;
-}
-
-.section-navbar::after {
-    display: table;
-    clear: both;
-    background: #;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .section-demo-screen {
@@ -23,9 +11,29 @@
     padding: 30px 0;
 }
 
+.discover {
+    background-color: #FDC846;
+    padding: 30px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.unlimited {
+    background-color: #ffffff;
+    padding: 30px 0;
+    position: relative;
+    overflow: hidden;
+}
+
 @media(min-width:768px) {
     .section-navbar,
-    .section-demo-screen {
+    .section-demo-screen,
+    .discover,
+    .unlimited,
+    .container,
+    .stop-waiting,
+    .social-media,
+    .footer {
         padding: 40px 0;
     }
     p {
@@ -35,7 +43,13 @@
 
 @media(min-width:992px) {
     .section-navbar,
-    .section-demo-screen {
+    .section-demo-screen,
+    .discover,
+    .unlimited,
+    .container,
+    .stop-waiting,
+    .social-media,
+    .footer {
         padding: 45px 0;
     }
 }
@@ -45,7 +59,7 @@ p {
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .btn btn-sm btn-info {
@@ -54,4 +68,18 @@ h1 {
 
 .stop-waiting {
     background-image: url('/img/bg-cta.jpg') center;
+    padding: 30px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.social-media {
+    background-image: url('/img/bg-cta.jpg') center;
+    padding: 30px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer {
+    font-family: 'Muli', sans-serif;
 }
