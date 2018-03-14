@@ -1,5 +1,5 @@
 .section-navbar {
-    background: #ffffff;
+    background-color: #ffffff;
     padding: 30px 0;
     position: relative;
     overflow: hidden;
@@ -7,7 +7,6 @@
 }
 
 .section-navbar::after {
-    content: "";
     display: table;
     clear: both;
     background: #;
@@ -19,9 +18,8 @@
 }
 
 .section-demo-screen {
-    background: url('/img/bg-pattern.png') center;
-    background: #DA2A3C;
-    
+    background-image: url('/img/bg-pattern.png') center;
+    background-color: #DA2A3C;
     padding: 30px 0;
 }
 
@@ -44,4 +42,16 @@
 
 p {
     font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn btn-sm btn-info {
+    border-radius: 20px;
+}
+
+.stop-waiting {
+    background-image: url('/img/bg-cta.jpg') center;
 }
